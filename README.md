@@ -3,8 +3,10 @@ Chương trình được xây dựng từ VBA truy xuất json từ Monggo vào 
 # Cách sử dụng:
 Download file: '.xml'; 
 Enable Macro trong Excel
+Cài đặt file JsonConverter vào VBA để xử lý được dữ liệu json
 Mở file và làm theo hướng dẫn sau:
-1. Bạn lưu ý Mẫu JSON trong Chương trình này cài đặt sẵn dạng:
+
+# Bạn lưu ý Mẫu JSON trong Chương trình này cài đặt sẵn dạng:
    {
   "_id": {
     "$oid": "6763a2db35ebb992664a8e01"
@@ -20,10 +22,13 @@ Mở file và làm theo hướng dẫn sau:
   "Loai_dich_vu": "rut tien",
   " Trang thai giao dich": "Thanh cong"
 }
-
-# Bạn phải vào Module "truyxuatjson" chỉnh lại mẫu JSON phù hợp với nhu cầu bên bạn
-# Cũng trong Module này, bạn thay thế vị trí tệp json mà bạn lưu trữ ở dòng này: 
+# Module "truyxuatjson"
+Bạn phải vào Module "truyxuatjson" chỉnh lại mẫu JSON phù hợp với nhu cầu bên bạn
+Cũng trong Module này, bạn thay thế vị trí tệp json mà bạn lưu trữ ở dòng này: 
 jsonText = jsonFile.OpenTextFile("C:\Users\pc\Desktop\DATA-SELF-RESEARCH\Data Analysis\NoSQL\VBA-JSON\VBA-TEST-1.json", 1).ReadAll
 
 # Sau đó bạn cứ Nhấn Button "Rut tien" trong file '.xml'
 Mọi thứ sẽ vận hành tự động.
+
+Chúc bạn thành công
+### Tác giả: DA Lý Tú Anh - Domain Sale-Marketing - Quản lý bán hàng kênh MT cho Uniclever 2024
