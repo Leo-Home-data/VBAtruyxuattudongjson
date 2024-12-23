@@ -1,0 +1,165 @@
+[{
+  "_id": {
+    "$oid": "6763a2db35ebb992664a8e01"
+  },
+  "transaction_id": "TRX12345",
+  "customer": {
+    "name": "Nguyen Van A",
+    "email": "nguyenvana@example.com",
+    "ma_khach_hang": "001"
+  },
+  "amount": 15000000,
+  "currency": "VND",
+  "Loai_dich_vu": "rut tien",
+  " Trang thai giao dich": "Thanh cong"
+},
+{
+  "_id": {
+    "$oid": "6763a2db35ebb992664a8e02"
+  },
+  "transaction_id": "TRX10345",
+  "customer": {
+    "name": "Nguyen Van B",
+    "email": "nguyenvanb@example.com",
+    "ma_khach_hang": "002"
+  },
+  "amount": 20000000,
+  "currency": "VND",
+  "Loai_dich_vu": "nap tien",
+  " Trang thai giao dich": "Thanh cong"
+},
+{
+  "_id": {
+    "$oid": "6763a2db35ebb992664a8e03"
+  },
+  "transaction_id": "TRX12347",
+  "customer": {
+    "name": "Nguyen Van C",
+    "email": "nguyenvanc@example.com",
+    "ma_khach_hang": "003"
+  },
+  "amount": 25000000,
+  "currency": "VND",
+  "Loai_dich_vu": "chuyen khoan",
+  " Trang thai giao dich": "Thanh cong"
+},
+{
+  "_id": {
+    "$oid": "6763a2db35ebb992664a8e04"
+  },
+  "transaction_id": "TRX12045",
+  "customer": {
+    "name": "Hoang Thai Dong Phuong",
+    "email": "hoangthaidongphuong@example.com",
+    "ma_khach_hang": "004"
+  },
+  "amount": 150000000,
+  "currency": "VND",
+  "Loai_dich_vu": "chuyen khoan",
+  " Trang thai giao dich": "That bai"
+},
+{
+  "_id": {
+    "$oid": "6763a2db35ebb992664a8e05"
+  },
+  "transaction_id": "TRX12305",
+  "customer": {
+    "name": "Ly Tu Anh",
+    "email": "lytuanh@example.com",
+    "ma_khach_hang": "006"
+  },
+  "amount": 200000000,
+  "currency": "VND",
+  "Loai_dich_vu": "nap tien",
+  " Trang thai giao dich": "Thanh cong"
+},
+{
+  "_id": {
+    "$oid": "6763a2db35ebb992664a8e07"
+  },
+  "transaction_id": "TRX12340",
+  "customer": {
+    "name": "Ly Nguyet Lien",
+    "email": "lynguyetlien@example.com",
+    "ma_khach_hang": "007"
+  },
+  "amount": 35000000,
+  "currency": "VND",
+  "Loai_dich_vu": "rut tien",
+  " Trang thai giao dich": "Thanh cong"
+},
+{
+  "_id": {
+    "$oid": "6763a2db35ebb992664a8e08"
+  },
+  "transaction_id": "TRX02345",
+  "customer": {
+    "name": "Ly Huong Lan",
+    "email": "lyhuonglan@example.com",
+    "ma_khach_hang": "008"
+  },
+  "amount": 65000000,
+  "currency": "VND",
+  "Loai_dich_vu": "rut tien",
+  " Trang thai giao dich": "Thanh cong"
+},
+{
+  "_id": {
+    "$oid": "6763a2db35ebb992664a8e09"
+  },
+  "transaction_id": "TRX12435",
+  "customer": {
+    "name": "To Thu Thuy",
+    "email": "tothuthuy@example.com",
+    "ma_khach_hang": "009"
+  },
+  "amount": 36000000,
+  "currency": "VND",
+  "Loai_dich_vu": "nap tien",
+  " Trang thai giao dich": "Thanh cong"
+},
+{
+  "_id": {
+    "$oid": "6763a2db35ebb992664a8e10"
+  },
+  "transaction_id": "TRX13245",
+  "customer": {
+    "name": "Le Tu",
+    "email": "letu@example.com",
+    "ma_khach_hang": "007"
+  },
+  "amount": 180000000,
+  "currency": "VND",
+  "Loai_dich_vu": "chuyen khoan",
+  " Trang thai giao dich": "That bai"
+},
+{
+  "_id": {
+    "$oid": "6763a2db35ebb992664a8e06"
+  },
+  "transaction_id": "TRX15432",
+  "customer": {
+    "name": "Chau Hue Man",
+    "email": "chauhueman@example.com",
+    "ma_khach_hang": "006"
+  },
+  "amount": 45000000,
+  "currency": "VND",
+  "Loai_dich_vu": "rut tien",
+  " Trang thai giao dich": "Thanh cong"
+},
+{
+  "_id": {
+    "$oid": "6763a2db35ebb992664a8e11"
+  },
+  "transaction_id": "TRX15433",
+  "customer": {
+    "name": "Ly Hien Long",
+    "email": "lyhienlong@example.com",
+    "ma_khach_hang": "011"
+  },
+  "amount": 450000000,
+  "currency": "VND",
+  "Loai_dich_vu": "rut tien",
+  " Trang thai giao dich": "Thanh cong"
+}]
