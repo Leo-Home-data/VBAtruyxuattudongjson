@@ -8,10 +8,11 @@ Cách này đơn giản và phù hợp cho người mới bắt đầu làm quen
 
 Ngoài ra bạn còn có nhiều cách khác như: 
 
-            sử dụng driver MongoDB ODB được cấp miễn phí,
+- sử dụng driver MongoDB ODB được cấp miễn phí,
             
-            Sử dụng Python làm cầu nối nếu bạn chuyên về Python, code dưới đây là 1 ví dụ để bạn tham khảo. Tuy nhiên chúng ta cứ thoải mái vì File này chỉ cần bạn Export sẵn JSON là được, đơn giản và nhanh, tiện lợi.
-            ### Python Script (mongo_to_json.py):
+- Sử dụng Python làm cầu nối nếu bạn chuyên về Python, code dưới đây là 1 ví dụ để bạn tham khảo. Tuy nhiên chúng ta cứ thoải mái vì File này chỉ cần bạn Export sẵn JSON là được, đơn giản và nhanh, tiện lợi.
+
+                     ### Python Script (mongo_to_json.py):
 
             import json
 
