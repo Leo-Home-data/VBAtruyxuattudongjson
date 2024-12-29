@@ -63,35 +63,35 @@ Ngoài ra bạn còn có nhiều cách khác như:
 
 ### Bạn lưu ý Mẫu JSON trong Chương trình này cài đặt sẵn dạng:
 
-   {
+               {
 
-  "_id": {
+              "_id": {
 
-    "$oid": "6763a2db35ebb992664a8e01"
+                "$oid": "6763a2db35ebb992664a8e01"
 
-  },
+              },
 
-  "transaction_id": "TRX12345",
+              "transaction_id": "TRX12345",
 
-  "customer": {
-
-    "name": "Nguyen Van A",
+              "customer": {
+            
+                "name": "Nguyen Van A",
  
-    "email": "nguyenvana@example.com",
+                "email": "nguyenvana@example.com",
 
-    "ma_khach_hang": "001"
+                "ma_khach_hang": "001"
 
-  },
+              },
 
-  "amount": 15000000,
+              "amount": 15000000,
 
-  "currency": "VND",
+              "currency": "VND",
 
-  "Loai_dich_vu": "rut tien",
+              "Loai_dich_vu": "rut tien",
 
-  " Trang thai giao dich": "Thanh cong"
+              " Trang thai giao dich": "Thanh cong"
 
-}
+            }
 
 ## Module "truyxuatjson"
 
