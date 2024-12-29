@@ -11,47 +11,47 @@ Ngoài ra bạn còn có nhiều cách khác như:
             sử dụng driver MongoDB ODB được cấp miễn phí,
             
             Sử dụng Python làm cầu nối nếu bạn chuyên về Python, code dưới đây là 1 ví dụ để bạn tham khảo. Tuy nhiên chúng ta cứ thoải mái vì File này chỉ cần bạn Export sẵn JSON là được, đơn giản và nhanh, tiện lợi.
-### Python Script (mongo_to_json.py):
+            ### Python Script (mongo_to_json.py):
 
-import json
+            import json
 
-from pymongo import MongoClient
+                        from pymongo import MongoClient
 
-def query_mongo():
+                        def query_mongo():
 
-client = MongoClient("mongodb://localhost:27017/")*
+                                    client = MongoClient("mongodb://localhost:27017/")*
 
-db = client["database_name"]**
+                                    db = client["database_name"]**
 
-collection = db["collection_name"]***
+                                    collection = db["collection_name"]***
 
-data = collection.find({}, {"_id": 0}) # Lấy tất cả dữ liệu, bỏ qua
-`_id`****
+                                    data = collection.find({}, {"_id": 0}) # Lấy tất cả dữ liệu, bỏ qua
+                                    `_id`****
 
-with open("output.json", "w") as f:****
-json.dump(list(data), f)*
+                                    with open("output.json", "w") as f:****
+                                    json.dump(list(data), f)*
 
-if __name__ == "__main__
+                        if __name__ == "__main__
 
-query_mongo()*
+                        query_mongo()*
 
-### VBA Code để gọi Python:
+            ### VBA Code để gọi Python:
 
-Sub RunPythonScript()
+            Sub RunPythonScript()
 
-Dim shell As Object
+                        Dim shell As Object
 
-Set shell = CreateObject("WScript.Shell")
+                        Set shell = CreateObject("WScript.Shell")
 
-' Chạy Python script
+                        ' Chạy Python script
 
-shell.Run "python C:\path\to\mongo_to_json.py", 1, True
+                        shell.Run "python C:\path\to\mongo_to_json.py", 1, True
 
-' Xử lý dữ liệu sau khi script hoàn thành
+                        ' Xử lý dữ liệu sau khi script hoàn thành
 
-MsgBox "Python script đã hoàn tất!"
+                        MsgBox "Python script đã hoàn tất!"
 
-End Sub
+            End Sub
 
 
 ## Cách sử dụng:
